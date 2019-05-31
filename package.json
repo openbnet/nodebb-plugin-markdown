@@ -1,0 +1,79 @@
+{
+  "_from": "nodebb-plugin-markdown@8.9.2",
+  "_id": "nodebb-plugin-markdown@8.9.2",
+  "_inBundle": false,
+  "_integrity": "sha512-83cCZTzVkL2ApBfLFCScxZE8hHtTZdiVWOxEpYBGDuD+El2lcVGktS6rnnooodThuXCIPtx+5gwwF+fq2ntqKw==",
+  "_location": "/nodebb-plugin-markdown",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "nodebb-plugin-markdown@8.9.2",
+    "name": "nodebb-plugin-markdown",
+    "escapedName": "nodebb-plugin-markdown",
+    "rawSpec": "8.9.2",
+    "saveSpec": null,
+    "fetchSpec": "8.9.2"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nodebb-plugin-markdown/-/nodebb-plugin-markdown-8.9.2.tgz",
+  "_shasum": "100f5ed121838b68d8760afa5b26a1dbcf6596d1",
+  "_spec": "nodebb-plugin-markdown@8.9.2",
+  "_where": "/Users/hanselke/Dev/nodebb/nodebb",
+  "author": {
+    "name": "Julian Lam",
+    "email": "julian@designcreateplay.com"
+  },
+  "bugs": {
+    "url": "https://github.com/julianlam/nodebb-plugin-markdown/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "async": "^2.6.0",
+    "highlight.js": "9.14.2",
+    "markdown-it": "^8.4.2",
+    "markdown-it-checkbox": "^1.1.0"
+  },
+  "deprecated": false,
+  "description": "A Markdown parser for NodeBB",
+  "devDependencies": {
+    "@commitlint/cli": "^7.5.0",
+    "@commitlint/config-angular": "^7.5.0",
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "husky": "^1.3.1",
+    "lint-staged": "^8.1.3"
+  },
+  "homepage": "https://github.com/julianlam/nodebb-plugin-markdown#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "markdown"
+  ],
+  "license": "MIT",
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "main": "index.js",
+  "name": "nodebb-plugin-markdown",
+  "nbbpm": {
+    "compatibility": "^1.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julianlam/nodebb-plugin-markdown.git"
+  },
+  "version": "8.9.2"
+}
